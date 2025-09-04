@@ -1,0 +1,111 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.brand-name {
+  font-size: 3rem;
+  background: linear-gradient(to right, #007bff, #e91e63);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 370px;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f8f9fa;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.login-form input {
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border 0.3s;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.4);
+}
+
+.remember-me {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.remember-me input {
+  margin-right: 6px;
+}
+
+.login-form button {
+  background: linear-gradient(to right, #007bff, #e91e63);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.login-form button:hover {
+  opacity: 0.92;
+}
+
+.login-right {
+  flex: 1;
+  background: linear-gradient(to right, #a0c5ff, #e4a0f7);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-right img {
+  width: 85%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: right;
+  line-height: 1.4;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+}

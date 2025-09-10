@@ -1,7 +1,7 @@
 name: first worflow
 on: push
 jobs:
-  runs-on: linux
+  runs-on: windows
   steps:
     - name: greet
     run: echo "hello iam"

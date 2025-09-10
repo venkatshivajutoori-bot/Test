@@ -3,4 +3,5 @@ on: push
 jobs:
   runs-on: linux
   steps:
+    - name: greet
     run: echo "hello iam"

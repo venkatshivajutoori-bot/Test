@@ -1,8 +1,11 @@
-name: first worflow
-on: push
-  jobs:
-    firstjob:
-      runs-on: windows
-      steps:
-        - name: greet
-          run: echo "hello iam"
+name: first workflow
+
+on:
+  push:
+
+jobs:
+  firstjob:
+    runs-on: windows-latest
+    steps:
+      - name: greet
+        run: echo "hello I am"

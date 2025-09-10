@@ -1,8 +1,8 @@
 name: first worflow
 on: push
-jobs:
-  firstjob:
-    runs-on: windows
-    steps:
-    - name: greet
-      run: echo "hello iam"
+  jobs:
+    firstjob:
+      runs-on: windows
+      steps:
+        - name: greet
+          run: echo "hello iam"

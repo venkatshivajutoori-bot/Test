@@ -4,4 +4,4 @@ jobs:
   runs-on: windows
   steps:
     - name: greet
-    run: echo "hello iam"
+      run: echo "hello iam"

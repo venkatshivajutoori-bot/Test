@@ -1,5 +1,5 @@
 name: dev
-on: push
+on: workflow_dispatch
 jobs:
   frstjob:
     runs-on: windows-latest

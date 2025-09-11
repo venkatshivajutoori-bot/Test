@@ -1,12 +1,13 @@
 name: dev
 on: workflow_dispatch
 jobs:
-  frstjob:
+  test:
     runs-on: windows-latest
     steps:
        - run: echo "happy new"
-  secndjob:
+  build:
     runs-on: ubuntu-latest
+    needs: test
     steps:
       - name: new
         run: echo "how ru"

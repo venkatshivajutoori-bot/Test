@@ -5,7 +5,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: greet
-        run: echo "happy new"
+      - run: echo "happy new"
   secndjob:
     runs-on: ubuntu-latest
     steps:

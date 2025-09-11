@@ -7,7 +7,7 @@ jobs:
       - name: greet
         run: echo "happy new dev"
   
-name: test
+name1: test
 on: push
 jobs:
   secndjb:
@@ -16,7 +16,7 @@ jobs:
       - name: greet
         run: echo "happy new test"
 
-name: pro
+name2: pro
 on: push
 jobs:
   thirfjob:
@@ -24,4 +24,9 @@ jobs:
     steps:
       - name: greet
         run: echo "happy new prod"
+    
+
+
+
+
     

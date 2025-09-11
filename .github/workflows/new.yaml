@@ -22,3 +22,9 @@ jobs:
       - name: naya
         run: echo "im finre"
           
+  dev:
+    needs: build
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "will ever"
+    

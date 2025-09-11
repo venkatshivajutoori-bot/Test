@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: new
-        run: echo "how ru"
+        run: echo "how ru
       - name: naya
         run: echo "im finre"
   prod:

@@ -1,0 +1,8 @@
+name: dev
+on: push
+jobs:
+  frstjob:
+    runs-on: windows-latest
+    steps:
+      - run: echo "happy new"
+    

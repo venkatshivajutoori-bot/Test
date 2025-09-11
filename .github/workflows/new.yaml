@@ -2,7 +2,7 @@ name: mine
 on: workflow_dispatch
 jobs:
   test:
-    runs-on: windows-latest
+    runs-on: windows
     steps:
        - run: echo "happy new"
   build:

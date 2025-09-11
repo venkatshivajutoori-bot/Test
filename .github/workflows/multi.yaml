@@ -1,0 +1,27 @@
+name: dev
+on: push
+jobs:
+  frstjob:
+    runs-on: windows-latest
+    steps:
+      - name: greet
+        run: echo "happy new dev"
+  
+name: test
+on: push
+jobs:
+  secndjb:
+    runs-on: windows-latest
+    steps:
+      - name: greet
+        run: echo "happy new test"
+
+name: pro
+on: push
+jobs:
+  thirfjob:
+    runs-on: windows-latest
+    steps:
+      - name: greet
+        run: echo "happy new prod"
+    

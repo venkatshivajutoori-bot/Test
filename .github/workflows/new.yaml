@@ -23,6 +23,7 @@ jobs:
         run: echo "im finre"
           
   dev:
+    if: always() 
     needs:
       - test
       - prod

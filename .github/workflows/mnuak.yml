@@ -1,8 +1,0 @@
-name: maual triger
-on: workflow_dispatch
-jobs:    
-  testjob:
-    runs-on: windows-latest
-    steps:
-      - name: greet
-        run: echo "welcome git"

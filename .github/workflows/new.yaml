@@ -4,5 +4,6 @@ jobs:
   frstjob:
     runs-on: windows-latest
     steps:
-      - run: echo "happy new"
+      - name: greet
+        run: echo "happy new"
     

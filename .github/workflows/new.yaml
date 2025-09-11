@@ -7,10 +7,18 @@ jobs:
        - run: echo "happy new
   build:
     runs-on: ubuntu-latest
+   # needs: test
+    steps:
+      - name: new
+        run: echo "how ru"
+      - name: naya
+        run: echo "im finre"
+  prod:
+    runs-on: ubuntu-latest
     needs: test
     steps:
       - name: new
         run: echo "how ru"
       - name: naya
         run: echo "im finre"
-    
+          

@@ -6,7 +6,7 @@ jobs:
     steps:
        - run: echo "happy new"
   build:
-    needs: test
+    #needs: test
     runs-on: ubuntu-latest
     steps:
       - name: new
@@ -18,7 +18,7 @@ jobs:
     needs: build
     steps:
       - name: new
-        run: echo "how ru"
+        run: echo "how ru
       - name: naya
         run: echo "im finre"
           

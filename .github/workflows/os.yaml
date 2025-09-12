@@ -5,10 +5,15 @@ jobs:
   frstjob:
     runs-on: ubuntu-latest
     steps:
+      
       - name: greet
         run: echo "welcmome
+        if: always()
       - name: os info
         run: cat /etc/os-release
+      - name: disk
+        run: df -h
+        
       
        
         

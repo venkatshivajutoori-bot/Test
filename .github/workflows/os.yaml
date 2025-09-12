@@ -3,7 +3,7 @@ on: workflow_dispatch
 
 jobs:
   frstjob:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: os info
         run: cat /etc/os-release

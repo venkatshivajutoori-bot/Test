@@ -1,0 +1,9 @@
+name: osinfo
+on: workflow_dispatch
+
+jobs:
+  frstjob:
+    runs-on: ubuntu-lates
+    steps:
+      - name: os info
+        run: cat /etc/os-release

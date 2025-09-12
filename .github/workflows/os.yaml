@@ -7,3 +7,9 @@ jobs:
     steps:
       - name: os info
         run: cat /etc/os-release
+      - name: mulipltcmds
+        run:
+          lscpu
+          free -mh
+        
+        

@@ -1,5 +1,5 @@
 name: dev
-on: push
+on: workflow_dispatch
 jobs:
   frstjob:
     runs-on: windows-latest
@@ -7,17 +7,9 @@ jobs:
       - name: greet
         run: echo "happy new dev"
   
-name1: test
-on: push
-jobs:
-  secndjb:
-    runs-on: windows-latest
-    steps:
-      - name: greet
-        run: echo "happy new test"
 
 name2: pro
-on: push
+on:  workflow_dispatch
 jobs:
   thirfjob:
     runs-on: windows-latest

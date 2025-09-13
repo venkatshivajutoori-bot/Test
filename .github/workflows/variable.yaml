@@ -1,0 +1,12 @@
+name: evn test
+on: workflow_dispatch
+env:
+  
+  DASHING: "sehwag"
+
+jobs:
+  frstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greeet
+        run: echo "hi team, $GREET"

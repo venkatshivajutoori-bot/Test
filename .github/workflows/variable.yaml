@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: greeet
         run: echo "hi team, ${{vars.GREET}}"
+      - name: login azure
+        run: echo "login using this ${{secrets.AWS_PASSWD}}"

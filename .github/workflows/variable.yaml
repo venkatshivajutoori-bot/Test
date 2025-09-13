@@ -1,4 +1,4 @@
-name: evn test
+name: evn variable
 on: workflow_dispatch
 env:
   
@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: greeet
-        run: echo "hi team, $GREET"
+        run: echo "hi team, ${{vars.GREET}}"

@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       
-      - name: greet
-        run: echo "welcmome"
+      - name: os speccs
+        run: cat /etc/os-release
   secodjob:
     runs-on: self-hosted
     steps:

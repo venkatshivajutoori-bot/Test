@@ -5,11 +5,20 @@ jobs:
   frstjob:
     runs-on: ubuntu-latest
     steps:
+      - name: create folder
+        run: | 
+          cd 
+          mkdir git
+          ls
+      
       
       - name: os speccs
         run: cat /etc/os-release
   secodjob:
     runs-on: self-hosted
     steps:
-      - name: os specs
-        run: cat /etc/os-release
+      - name: create folder
+        run: |
+          cd
+          mkdir self
+          ls

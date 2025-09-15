@@ -1,10 +1,15 @@
-name: runners
+name: osinfo
 on: workflow_dispatch
+
 jobs:
   frstjob:
     runs-on: ubuntu-latest
     steps:
-      - name: os
+      
+      - name: greet
+        run: echo "welcmome
+  secodjob:
+    runs-on: self-hosted
+    steps:
+      - name: os specs
         run: cat /etc/os-release
-      - name: nodeversoin
-        run: node --version

@@ -1,0 +1,10 @@
+name: runners
+on: workflow_dispatch
+jobs:
+  frstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: os
+        run: cat /etc/os-release
+      - name: nodeversoin
+        run: node --version

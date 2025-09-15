@@ -6,15 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       
-      - name: greet
+      - name: github runer
         run: echo "welcmome
-        if: always()
-      - name: os info
+  secodjob:
+    runs-on: self-hosted
+    steps:
+      - name: os specs
         run: cat /etc/os-release
-      - name: disk
-        run: df -h
-        
-      
-       
-        
-        

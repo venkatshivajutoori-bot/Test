@@ -7,7 +7,7 @@ jobs:
     steps:
       
       - name: greet
-        run: echo "welcmome
+        run: echo "welcmome"
   secodjob:
     runs-on: self-hosted
     steps:

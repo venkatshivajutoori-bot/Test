@@ -8,7 +8,7 @@ jobs:
       - name: create folder
         run: | 
           cd 
-          mkdir git
+          # mkdir git
           ls
       
       
@@ -20,5 +20,5 @@ jobs:
       - name: create folder
         run: |
           cd
-          mkdir self
+          # mkdir self
           ls

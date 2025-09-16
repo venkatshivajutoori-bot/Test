@@ -1,6 +1,11 @@
 name: slack
 on: workflow_dispatch
 jobs:
+  secndjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo " frst job"
   frstjob:
     runs-on: ubuntu-latest
     steps:

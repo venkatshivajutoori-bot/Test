@@ -1,19 +1,14 @@
-name: slack
+name: slack-notification
 on: workflow_dispatch
 jobs:
-  secndjob:
+  slackjob:
     runs-on: ubuntu-latest
-    steps:
-      - name: test
-        run: echo " frst job"
-  frstjob:
-    runs-on: ubuntu-latest
-    steps:
-      - name: salck notification
+    steps: 
+      - name: slac noticiafytion
         uses: slackapi/slack-github-action@v2.1.1
         with:
-          webhook: ${{secrets.SLACK_PASSWD}}
+          webhook: ${{secrets.NEWWEBHOOK}}
           webhook-type: incoming-webhook
           payload: |
-            channel: githb-actions
-            text: "trieger new noticiafytion"
+            channel: devops
+            text: " devloper shiv made some chnages "
